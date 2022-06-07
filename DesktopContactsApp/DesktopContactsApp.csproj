@@ -1,0 +1,31 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <OutputType>WinExe</OutputType>
+    <TargetFramework>net6.0-windows</TargetFramework>
+    <Nullable>disable</Nullable>
+    <UseWPF>true</UseWPF>
+    <ApplicationIcon>business_application_addmale_useradd_insert_add_user_client_2312.ico</ApplicationIcon>
+    <PackageIcon>business_application_addmale_useradd_insert_add_user_client_2312.png</PackageIcon>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <Content Include="business_application_addmale_useradd_insert_add_user_client_2312.ico" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <PackageReference Include="sqlite-net-pcl" Version="1.8.116" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <Folder Include="Classes\" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <None Include="..\..\..\..\Desktop\business_application_addmale_useradd_insert_add_user_client_2312.png">
+      <Pack>True</Pack>
+      <PackagePath>\</PackagePath>
+    </None>
+  </ItemGroup>
+
+</Project>
